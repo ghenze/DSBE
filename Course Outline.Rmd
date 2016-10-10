@@ -2,11 +2,12 @@
 ---
 title: "Data Science for Buildings and Energy"
 output:
-  pdf_document:
+  html_document:
     fig_caption: yes
     number_sections: yes
     toc: yes
-  html_document:
+  pdf_document:
+    fig_caption: yes
     number_sections: yes
     toc: yes
   word_document:
@@ -21,23 +22,22 @@ output:
 | gregor.henze@colorado.edu
 
 
-# TA {-}
+# Teaching Assistant {-}
 | Catheriner Dressler
 | ECCE 150
 | catherine.dressler@colorado.edu
 
 
-# Week 1 & 2: Introduction {-} 
+# Background of Probability (Week 1 & 2) 
 
-#. Assume Ch. 1-3 (Reddy) 
-#. Review (Reddy):
-    - Chapter 2.3 - Probability Distribution Functions
-        + Parameter Estimation
-            - Methods of Moments
-            - Maximum Liklihood Estimation (MLE)
-            - Bayesian
-    - Chapter 2.5 - Bayesian probability
-    - Chapter 3.4 - Descriptive Measures for Sample Data
+#. Reading Assignment: Chapters 1-3 (Reddy) 
+#. Probability Distribution Functions (Ch. 2.3)
+#. Parameter Estimation
+    - Methods of Moments
+    - Maximum Likelihood Estimation (MLE)
+    - Bayesian
+#. Bayesian Probability (Ch. 2.5)
+#. Descriptive Measures for Sample Data (Ch. 3.4)
 #. Parameter Estimation with Context of Regression
 <How to fit, look at diagnostics, is it good? Consider both visual and quantitative>
 
@@ -96,7 +96,7 @@ output:
 # Week 14-15: Advanced Topics {-}
 
 #. Symbolic Dynamic Filtering (SDF): non-intrusive load monotoring
-    - Hidden Marker Models (HMM)
+    - Hidden Markov Models (HMM)
 
 #. Fault Detection and Diagnostics (FDD)
 
