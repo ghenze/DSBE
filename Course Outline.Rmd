@@ -1,0 +1,101 @@
+
+---
+title: "Data Science for Energy and Buildings"
+output:
+  html_document:
+    number_sections: yes
+    toc: yes
+  pdf_document:
+    fig_caption: yes
+  word_document:
+    fig_caption: yes
+    toc: yes
+---
+
+
+# Instructor {-}
+| Professor Gregor P. Henze, Ph.D., P.E.
+| CEAE Room ECCE 246A
+| gregor.henze@colorado.edu
+
+
+# TA {-}
+| Catheriner Dressler
+| ECCE 150
+| catherine.dressler@colorado.edu
+
+
+# Week 1 & 2: Introduction {-} 
+
+#. Assume Ch. 1-3 (Reddy) 
+#. Review (Reddy):
+    - Chapter 2.3 - Probability Distribution Functions
+        + Parameter Estimation
+            - Methods of Moments
+            - Maximum Liklihood Estimation (MLE)
+            - Bayesian
+    - Chapter 2.5 - Bayesian probability
+    - Chapter 3.4 - Descriptive Measures for Sample Data
+#. Parameter Estimation with Context of Regression
+<How to fit, look at diagnostics, is it good? Consider both visual and quantitative>
+
+# Week 3-5: Regression {-}
+
+#. OLS:Univariate and Multivariate: (Reddy 5, Spring 3)
+    - Model selection: AIC, BIC, and stepwise regression
+    - Diagnose models using Q-Q, check for heteroskedasticity, ACF (Reddy5.6)
+    
+#. Piecewise regression:
+<Pros & Cons>
+
+#. Motivate need for and introduce local regression:
+    - Local polynomial models:
+        - K-nearest nieghbors (Reddy 8.3.3, Springer 3.5)
+        <define size of neighborhood k=# of nearest neighbors>
+        
+#. Co-linearity:
+    - Intro to block III, point out problem
+
+# Week 6-7: Beyond OLS {-}
+
+#. QR
+<http://www.econ.uiuc.edu/~roger/research/rq/rq.pdf>
+
+#. GLM
+
+# Week 8-10: Unsupervised Learning {-} 
+<how do we model multivariate data?>
+
+#. PCA (Reddy 10.3, Springer 6.3 & 10.2)
+    - Compare OLS model with and without PCA
+    <Show more reliable, guarentees orthongonal>
+        - F-value
+        - Liklihood ratio test
+        - Partial F-test
+        
+#. Clustering (Springer 10.3) 
+<compare with PCA eigan vectors>
+    - K-means
+    - Hierarchical clustering
+    
+# Week 11-13: Tree Based Models (Springer 8) {-}
+<Highly non-linear>
+
+#. CART: y-discrete outcome
+
+#. Regression Trees: y-continuous
+
+#. Pruning, AIC, BIC
+
+#. Bagging, random Forest
+
+#. SAX:Clayton Miller Day Filtering
+
+# Week 14-15: Advanced Topics {-}
+
+#. Symbolic Dynamic Filtering (SDF): non-intrusive load monotoring
+    - Hidden Marker Models (HMM)
+
+#. Fault Detection and Diagnostics (FDD)
+
+# Week 16: Final Project Presentations {-}
