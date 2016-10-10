@@ -1,12 +1,14 @@
 
 ---
-title: "Data Science for Energy and Buildings"
+title: "Data Science for Buildings and Energy"
 output:
+  pdf_document:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
   html_document:
     number_sections: yes
     toc: yes
-  pdf_document:
-    fig_caption: yes
   word_document:
     fig_caption: yes
     toc: yes
